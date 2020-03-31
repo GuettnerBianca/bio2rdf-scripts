@@ -1,0 +1,40 @@
+@prefix dc: <http://purl.org/dc/terms/> .
+@prefix bio2rdf_vocabulary: <https://bio2rdf.org/bio2rdf_vocabulary:> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix void: <http://rdfs.org/ns/void#>.
+@prefix scop: <http://bio2rdf.org/scop:> .
+@prefix scop_vocabulary: <http:bio2rdf.org/scop_vocabulary:> .
+scop:8018292
+  rdfs:label"Domain 3GQB A:113-184 [scop:8018292]"@en ;
+  dc:title"Domain 3GQB A:113-184" ;
+  dc:identifier "scop:8018292"^^xsd:string ;
+  rdf:type scop_vocabulary:FamilyDomain ;
+  scop_vocabulary:PDBID "3GQB" ;
+  scop_vocabulary:PDBREG "A:113-184" ;
+  scop_vocabulary:UNIID "Q56403" ;
+  scop_vocabulary:UNIREG "113-184" ;
+  scop_vocabulary:PDBID "3GQB" ;
+  scop_vocabulary:SuperfamilyDomain 8018293 ;
+  bio2rdf_vocabulary:namespace "scop"^^xsd:string ;
+  bio2rdf_vocabulary:identifier "8018292"^^xsd:string ;
+  void:inDataset <http://bio2rdf.org/bio2rdf_dataset:scop-30-03-2020> .
+
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix cc: <http://creativecommons.org/>.
+@prefix bio2rdf_dataset <http://bio2rdf.org/bio2rdf_dataset> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix w3cprov: <http://www.w3.org/prov#> .
+@prefix void: <http://rdfs.org/ns/void#> .
+bio2rdf_dataset:scop-30-03-2020
+	rdf:type void:Dataset;
+	rdfs:label "SCOP dataset by Bio2RDF [bio2rdf_dataset:scop-30-03-2020]" ;
+	w3cprov:wasDerivedFrom bio2rdf_dataset:scop ;
+	void:sparqlEndpoint <http://scop.bio2rdf.org/sparql> ;
+	void:Datadump <http://download.bio2rdf.org/rdf/scop> ;
+	dcterms:date "2020-03-30"^^xsd:date ;
+	dcterms:license cc:by-attribution ;
+	dcterms:publisher <http://bio2rdf.org> ;
+	dcterms:creator <https://github.com/bio2rdf/bio2rdf-scripts/blob/master/scop/scop.php> ;
+	dcterms:rights "use-share-modify by-attribution restricted-by-source-license" .

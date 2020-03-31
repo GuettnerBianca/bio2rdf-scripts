@@ -1,0 +1,27 @@
+rdf:type scop_vocabulary:FamilyDomain ;
+scop_vocabulary:PDBID "3GQB" ;
+scop_vocabulary:PDBREG "A:113-184" ;
+scop_vocabulary:UNIID "Q56403" ;
+scop_vocabulary:UNIREG "113-184" ;
+scop_vocabulary:PDBID "3GQB" ;
+scop_vocabulary:SuperfamilyDomain 8018293 ;
+
+<?xml version="1.0" encoding="utf-8" ?>
+<rdf:RDF
+	xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+	xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+	xmlns:dcterms="http://purl.org/dc/terms/"
+	xmlns:void="http://rdfs.org/ns/void#"
+	xmlns:ns4="http://bio2rdf.org/bio2rdf_vocabulary:" >
+  <rdf:Description rdf:about="http://bio2rdf.org/scop_vocabulary:FamilyDomain">
+    <rdf:type rdf:resource="http://bio2rdf.org/scop_vocabulary:Resource" />
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#ObjectProperty" />
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">SCOP representative family domain identifier [scop_vocabulary:FamilyDomain]</rdfs:label>
+    <rdfs:label xml:lang="en">SCOP representative family domain identifier [scop_vocabulary:FamilyDomain]</rdfs:label>
+    <dcterms:title xml:lang="en">Family Domain</dcterms:title>
+    <dcterms:identifier rdf:datatype="http://www.w3.org/2001/XMLSchema#string">scop_vocabulary:FamilyDomain</dcterms:identifier>
+    <void:inDataset rdf:resource="http://bio2rdf.org/scop_resource:bio2rdf.dataset.scop.R3" />
+    <ns4:identifier rdf:datatype="http://www.w3.org/2001/XMLSchema#string">FamilyDomain</ns4:identifier>
+    <ns4:namespace rdf:datatype="http://www.w3.org/2001/XMLSchema#string">scop_vocabulary</ns4:namespace>
+    <ns4:uri rdf:datatype="http://www.w3.org/2001/XMLSchema#string">http://bio2rdf.org/scop_vocabulary:FamilyDomain</ns4:uri>
+  </rdf:Description>
