@@ -17,3 +17,4 @@
     <ns4:namespace rdf:datatype="http://www.w3.org/2001/XMLSchema#string">scop_vocabulary</ns4:namespace>
     <ns4:uri rdf:datatype="http://www.w3.org/2001/XMLSchema#string">http://bio2rdf.org/scop_vocabulary:FamilyDomain</ns4:uri>
   </rdf:Description>
+</rdf:RDF>
