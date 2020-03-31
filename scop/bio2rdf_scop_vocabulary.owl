@@ -1,11 +1,3 @@
-rdf:type scop_vocabulary:FamilyDomain ;
-scop_vocabulary:PDBID "3GQB" ;
-scop_vocabulary:PDBREG "A:113-184" ;
-scop_vocabulary:UNIID "Q56403" ;
-scop_vocabulary:UNIREG "113-184" ;
-scop_vocabulary:PDBID "3GQB" ;
-scop_vocabulary:SuperfamilyDomain 8018293 ;
-
 <?xml version="1.0" encoding="utf-8" ?>
 <rdf:RDF
 	xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
